@@ -1,0 +1,591 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.header_background{
+	width: 100%;
+	height: 92px;
+	background-color: transparent;
+	position: relative;
+	border:none;
+}
+.menu{
+ color: white;
+ position: absolute;
+ top: 10%;
+ left: 5%;
+ padding: 0px;
+ margin: 0px;
+ z-index: 1;
+ display: inline-block;
+ width: 38%;
+}
+.menu ul li:hover{
+	color: #f1c40f;
+	transition: 1s;
+}
+.menu ul li{
+	display: inline-block;
+	line-height: 60px;
+	padding-right: 23px;
+	font-size: 17px;
+	font-family: 'Balsamiq Sans', cursive;
+	font-weight: 600;
+	z-index: 1;
+}
+
+.logo_background{
+	position: absolute;
+	top:0%;
+	left:50%;
+	transform: translate(-50%);
+	line-height: 60px;
+	z-index: 1;
+	
+}
+.logo_back{
+	width: 169px;
+	height: 45px;
+	background-color: #e67e22;
+	border-radius: 0px 0px 10px 10px;
+}
+
+.logo_back h4{
+	line-height: 15px;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: 'Balsamiq Sans', cursive;
+	font-weight: 600; 
+	color: white;
+	text-align: center;
+}
+.contact_sec{
+	position: absolute;
+	top:16%;
+	left: 70%;
+	width: 340px;
+	height: 60px;
+	line-height: 60px;
+	
+}
+
+.contact_sec_2{
+	position: relative;
+}
+
+.social_media_icons_top ul li a{
+	color: white;
+
+}
+.social_media_icons_top ul li a:hover{
+	color: #f1c40f;
+	transition: 1s;
+}
+.social_media_icons_top ul li {
+	display: inline-block;
+	line-height: 60px;
+	padding-right: 18px;
+	font-size: 17px;
+	padding-bottom: 30px;
+}
+.social_media_icons_top{
+	float: left;
+	position: absolute;
+	top: -5px;
+}
+
+.contact_number_top button{
+	color: #f1c40f;
+	display: inline-block;
+	line-height: 25px;
+	text-decoration: none;
+	font-size: 15px;
+	font-family: 'Balsamiq Sans', cursive;
+	font-weight: 600;
+	border-radius: 25px;
+	border-width: 1px;
+	padding: 12px 26px;
+	z-index: 1;
+	float: right;
+}
+
+.hero{
+      width: 100%;
+      height:130vh;
+      background:url(https://images.unsplash.com/photo-1571091718767-18b5b1457add?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80);
+      background-size:cover;
+      margin: 0px;
+      
+}
+
+
+.hero_contact{
+      width: 100%;
+      height:120vh;
+      background:url(../contact-pic.jpg);
+      background-size:cover;
+      margin: 0px;
+      
+}
+
+.hero_logo img{
+	font-size: 500px;
+	text-align: right;
+}
+
+/*
+.hero_overlay{
+	width: 100%;
+	height: 100%;
+	background: black;
+	opacity: .3;
+	position: relative;
+
+}*/
+.hero_text{
+	color: white;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 1;
+}
+.menu_section{
+	height: 95vh;
+	width: 100%;
+	background: url(https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-045.jpg);
+	position: relative;
+}
+/*.menu_section_opacity{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.2);
+}*/
+.menu_title_background{
+	width: 100%;
+	height: 200px;
+	position: absolute;
+	top: 120px;
+	text-align: center;
+	
+}
+.menu_title h4{
+	color: #F2C64D;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 18px;
+    display: block;
+    font-family: "Pacifico", cursive;
+	
+
+
+}
+.menu_title h2{
+	font-size: 50px;
+    font-weight: 700;
+    color: #1A0D01;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+}
+
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+
+/*.section_opacity{
+	position: absolute;
+}*/
+
+.menu_box{
+	position: absolute;
+	top: 90%;
+	left: 46%;
+	transform: translate(-50%, -50%); 
+	height: 80%;
+	width: 80%;
+	padding-bottom: 0px;
+}
+
+.grid_row{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	text-align: left;
+	padding: 15px;
+	margin-bottom: 20px;
+}
+.grid_col{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	text-align: center;
+}
+.grid_col img{
+	border-radius: 50%;
+	width: 170px;
+	height: 170px;
+}
+.grid_col h4{
+	font-size: 40px;
+	font-weight: 800;
+}
+.grid_col p{
+	font-size: 20px;
+	
+}
+.grid_col span{
+	font-size: 30px;
+	color: red;
+	font-weight: 800;
+}
+.grid_col .text{
+	text-align: left;
+}
+
+.footer_background{
+	background: url(https://wallpaperplay.com/walls/full/4/3/5/58069.jpg)no-repeat;
+	position: cover;
+	width: 100%;
+	height: 97vh;
+	margin-top: 700px;
+	text-overflow: hidden;
+	
+}
+
+.footer_background-contact{
+	background: url(https://wallpaperplay.com/walls/full/4/3/5/58069.jpg)no-repeat;
+	position: cover;
+	width: 100%;
+	height: 97vh;
+	margin-top: 70px;
+	text-overflow: hidden;
+}
+
+.footer_text{
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	text-align: center;
+	padding-top: 100px;
+}
+.footer_text .state_1 p{
+	padding-bottom: 8px;
+	font-size: 16px;
+	color: grey;
+}
+.footer_text .state_2 p{
+	padding-top: 11px;
+	font-size: 16px;
+	color: grey;
+}
+.footer_text .state_1 span{
+	font-size: 24px;
+	color: red;
+	font-weight: 600;
+}
+.footer_text .state_1 h6{
+	padding-bottom: 10px;
+	font-weight: 700;
+	font-size: 25px;
+}
+.footer_text .state_2 h6{
+	padding-bottom: 10px;
+	font-weight: 700;
+	font-size: 25px;
+}
+.social_media_bottom ul li{
+	display: inline-block;
+	text-align: center;
+	padding: 18px;
+	margin-top: 80px;
+}
+.social_media_bottom {
+	text-align: center;
+	font-size: 40px;
+	text-decoration: none;
+
+}
+.social_media_bottom ul li a{
+	color: red;
+}
+.bottom_info{
+	width: 100%;
+	height: 1px;
+	border-width: 2px;
+	margin-top: 80px;
+}
+.bottom_info{
+	text-align: center;
+	color: black;
+	font-size: 14px;
+}
+.bottom_info span{
+	color: blue;
+}
+.form-group input{
+	border-radius: 35px;
+	color: grey;
+	border: black 1px solid;
+	width: 320px;
+	padding: 8px 8px 8px 20px;
+	margin: 8px 8px 8px 0px;
+	font-size: 15px;
+}
+.state_2 input button{
+	background-color: none;
+}
+
+.state_2{
+	text-align: left;
+	margin-left: 40px;
+}
+
+
+}
+.form-group small{
+    visibility: hidden;
+
+}
+
+
+
+/* -----------------------------------contact page---------------------------------------------- */
+
+.headline-liner h2{
+	color: #F2C64D;
+    font-size: 100px;
+    font-weight: 400;
+    font-family: "Pacifico", cursive;
+}
+
+.border-liner{
+	width: 500px;
+	margin-left: 20px;
+}
+.border-liner-r{
+	width: 50px;
+	margin-right: 20px;
+	color: #F2C64D;
+	font-size: 100px;
+	position: absolute;
+	top: 200px;
+	left: 1100px;
+}
+.contact-bg-banner{
+	background-color: #f3f4f4;
+	width: 100%;
+	height: 150px;
+}
+.contact-bg-banner h2{
+	margin-top: 30px;
+}
+
+/* .contact-us-logo img{
+	width: 220px;
+	height: 200px;
+} */
+.contact-us-title h3{
+	color: black;
+	font-size: 21px;
+	margin-top: 20px;
+}
+.contact-us-detail p{
+	color: gray;
+	font-size: 17px;
+}
+.contact-us-social li{
+	display: inline-block;
+	padding-right: 10px;
+	font-size: 25px;
+	color: #F2C64D;
+}
+.contact-us-social li:hover{
+	
+	color: black;
+}
+
+.contact-row{
+	margin-top: 120px;
+	margin-left: 50px;
+}
+.info{
+	margin-right: 100px;
+}
+
+
+
+
+/*------------------------form validation-----------------------------*/
+.form-group.error input{
+	border: red 22px solid !important;
+	visibility: visible !important;
+}
+.form-group.error small{
+    visibility: visible;
+
+}
+/*------------------------Media Query's------------------------------*/
+@media only screen and (max-width:768px){
+   
+	.checkbtn{
+		    display: block;
+		    margin-right: 140px;
+		  }
+		  ul{
+		    position: fixed;
+		    width: 100%;
+		    height: 100vh;
+		    background: url();
+		    top: 80px;
+		    left: -100%;
+		    text-align: center;
+		    transition: all .5s;
+		  }
+		  nav ul li{
+		    display: inline-block;
+		    margin: 50px 0;
+		    line-height: 30px;
+
+		  }
+		  nav ul li a{
+		    display: inline-block;
+		  }
+		  a:hover,a.active{
+		    background: none;
+		    color: white;
+		  }
+		  #check:checked ~ ul{
+		    left: 0;
+		  }
+
+		  .contact_number_top button{
+		display: none;
+		}
+
+		.hero{
+	      width: 100%;
+	      height:60vh;
+	      background:url(https://images.unsplash.com/photo-1571091718767-18b5b1457add?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80);
+	      background-size:cover;
+	      margin: 0px;
+		}
+
+
+		.logo_back{
+		width: 169px;
+		height: 30px;
+		background-color: #e67e22;
+		border-radius: 0px 0px 10px 10px;
+		}
+
+		.logo_background .logo_back h4{
+		line-height: 15px;
+		text-decoration: none;
+		font-size: 18px;
+		font-family: 'Balsamiq Sans', cursive;
+		font-weight: 600; 
+		color: white;
+		text-align: center;
+		}
+
+}
+		
+
+
+
+	
+
+
+@media only screen and (max-width:991px) and (min-width: 769px){
+
+		.checkbtn{
+		    display: block;
+		    margin-right: 40px;
+		  }
+		  ul{
+		    position: fixed;
+		    width: 100%;
+		    height: 100vh;
+		    background: url(https://www.southsoundtalk.com/wp-content/uploads/2019/09/Battle-of-the-Burger-4.jpg);
+		    top: 80px;
+		    left: -100%;
+		    text-align: center;
+		    transition: all .5s;
+		  }
+		  nav ul li{
+		    display: inline-block;
+		    margin: 50px 0;
+		    line-height: 30px;
+		  }
+		  nav ul li a{
+		    font-size: 20px;
+		    display: inline-block;
+		  }
+		  a:hover,a.active{
+		    background: none;
+		    color: white;
+		  }
+		  #check:checked ~ ul{
+		    left: 0;
+		  }
+		}
+		section{
+		  background: url(https://www.southsoundtalk.com/wp-content/uploads/2019/09/Battle-of-the-Burger-4.jpg);
+		  background-size: cover;
+		  height: calc(100vh - 80px);
+		}
+
+
+			.logo_back h4{
+		line-height: 25px;
+		text-decoration: none;
+		font-size: 20px;
+		font-family: 'Balsamiq Sans', cursive;
+		font-weight: 600; 
+		color: white;
+		text-align: center;
+		}
+
+		/*.contact_number_top button{
+		display: none;
+		}*/
+
+		
+
+
+
+
+
+}
+
+@media only screen and (max-width: 1020px){
+	
+}
+
+@media only screen and (max-width:1200px) and (min-width: 992px){
+	
+
+
+	.menu ul li{
+	padding-right: 14px;
+	font-size: 15px;
+	font-weight: 600;
+
+	}
+
+	.menu{
+ 	left: 3%;
+	}
+
+	
+
+}
+
+
